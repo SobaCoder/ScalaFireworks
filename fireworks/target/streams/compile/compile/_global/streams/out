@@ -1,0 +1,50 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E080] Syntax Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:1:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m1 |[0mckage fireworks[0m
+[0m[[0m[31merror[0m] [0m[0m  |[31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |Expected a toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:21:36 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33mval[0m [36minitFireworks[0m = List.fill([31m10[0m)(Firework.init())[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                    Not found: Firework[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:31:12 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m            Firework.next(firework) [33mmatch[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            Not found: Firework[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:32:19 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m              [33mcase[0m Done  => None[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   Not found: Done[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:38:32 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m  [33mdef[0m [36mlaunchedPicture[0m([36mlaunched[0m: [35mLaunched[0m): [35mPicture[Unit][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                Not found: type Launched[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:44:34 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m44 |[0m  [33mdef[0m [36mexplodingPicture[0m([36mexploding[0m: [35mExploding[0m): [35mPicture[Unit][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  Not found: type Exploding[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:56:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m          [33mcase[0m _: Waiting           => shape.empty[Algebra, Drawing][0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  Not found: type Waiting[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:57:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m57 |[0m          [33mcase[0m Done                 => shape.empty[Algebra, Drawing][0m
+[0m[[0m[31merror[0m] [0m[0m   |               [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |               Not found: Done[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:58:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m58 |[0m          [33mcase[0m launched: Launched   => launchedPicture(launched)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         Not found: type Launched[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:59:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m59 |[0m          [33mcase[0m exploding: Exploding => explodingPicture(exploding)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          Not found: type Exploding[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:63:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m  [33mval[0m [36mframe[0m = Frame.size(Settings.width.toDouble, Settings.height.toDouble).background(Color.black)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         Not found: Settings[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/anwesha/Downloads/fireworks/src/main/scala/fireworks/FireworksRunner.scala:63:50 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m  [33mval[0m [36mframe[0m = Frame.size(Settings.width.toDouble, Settings.height.toDouble).background(Color.black)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                  [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                  Not found: Settings[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
